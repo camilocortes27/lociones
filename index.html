@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="imagenes/favicon-32x32.png">
+  <title>Lociones S&S</title>
+
 </head>
+
 <body>
-    cambios en vistas
+  <header>
+    <h1>Lociones S & S <span class="badge bg-secondary">Las mejores lociones a tu disposicion</span></h1>
+    <img src="imagenes/WhatsApp Image 2023-05-19 at 11.20.12 PM.jpeg" alt="" style="display: flex;" height="120px" width="120p
+    ">
+  </header>
+  <nav>
+    <ul>
+      <li><a target="_blank" href="admincontabilidad.html">Contabilidad</a></li>
+      <li><a target="_blank" href="admininventario.html">Inventario</a></li>
+      <li><a target="_blank" href="adminventas.html">Ventas</a></li>
+      <li><a target="_blank" href="adminusuarios.html">Usuarios</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <br>
+    <div id="theCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicadores -->
+      <ol class="carousel-indicators">
+        <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#theCarousel" data-slide-to="1"></li>
+        <li data-target="#theCarousel" data-slide-to="2"></li>
+        <li data-target="#theCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="imagenes/D_NQ_NP_620436-MCO54170764478_032023-O.jpg" alt="Ilustracion" width="600" height="424">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Gusti Ilustración</h3>
+            <p>Exposición</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="imagenes/descarga (1).jfif" alt="fotografia" width="600" height="424">
+          <div class="carousel-caption d-none d-md-block">
+            <h3> Xataka Fotografía</h3>
+            <p>Concurso</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="imagenes/descarga.jfif" alt="pintura" width="600" height="424">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>DoArt Pintura</h3>
+            <p>Curso</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#theCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">anterior</span>
+      </a>
+      <a class="right carousel-control" href="#theCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">siguiente</span>
+      </a>
+    </div>
+  </div>
+
 </body>
+
+</body>
+
+
 </html>
