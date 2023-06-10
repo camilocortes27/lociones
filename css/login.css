@@ -1,0 +1,58 @@
+body {
+    background-color: #000000;
+    position: relative;
+}
+
+.btn-enviar {
+    background-color: #f2d974;
+}
+
+.btn-enviar:hover {
+    background-color: #f2d974;
+}
+
+.titulos {
+    color: #f2d974;
+}
+
+.imagenLogin {
+    width: 160px;
+    height: 150px;
+}
+
+.contenedor-imagen {
+    text-align: center;
+    color: #f2d974;
+}
+
+.espacio {
+    padding: 30px;
+    border-color: white;
+    border: solid 1px;
+}
+
+.Bienvenidos {
+    text-decoration: #f2d974;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-validar {
+    text-align: center;
+    background-color: #f2d974;
+}
+
+.btn-cancelar {
+    text-align: center;
+    background-color: red;
+    color: white;
+}
